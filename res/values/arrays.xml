@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="open_dialog_options">
+        <item>@string/open_link</item>
+        <item>@string/open_post</item>
+    </string-array>    
+</resources>

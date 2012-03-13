@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hackful Reader</string>
+    <string name="frontpage_feed">http://hackful.com/frontpage.rss</string>
+    <string name="new_feed">http://hackful.com/new.rss</string>
+    <string name="ask_feed">http://hackful.com/ask.rss</string>
+    <string name="he_namespace">http://hackful.com/rss/hackful</string>
+    <string name="btFrontpageTitle">Frontpage</string>
+    <string name="btNewTitle">New</string>
+    <string name="btAskTitle">Ask</string>
+    <string name="btAbout">About</string>
+    <string name="load_more_items">Load more items</string>
+    <string name="open_dialog_title">Select action&#8230;</string>
+    <string name="open_link">Open link Url</string>
+    <string name="open_post">Open post Url</string>
+    <string name="connection_error">Failed to get feed. Is your internet connection working?</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog_text">
+This application is a simple Hackful RSS feed reader, 
+with access to frontpage, new and ask feeds, 
+as well as Hackful post page and Hackful post link.\n
+It was made by Damian Serrano Thode, and you can find my blog at 
+http://dsthode.info and my Twitter stream at http://twitter.com/dsthode\n
+\n
+How to use:\n
+--------------------------\n
+\n
+This application supports both tablets and phones, with different layouts for each one.
+If you are on a tablet, you have a list of posts on the left side. Clicking on one will open
+the post link on the right side, and with a long press a dialog will pop with two options: open post
+link (the linked page in the post) or open post page (the Hackful post page).\n
+If you are on a mobile phone, you will see just the list of posts, and by clicking on one the web browser 
+will open and the post link will be loaded. If you make a long press, the same dialog with the same options 
+as above will be shown.\n
+On the right side of the action bar are the buttons to load each feed posts, and the frontpage is loaded 
+by default on the application start\n
+\n
+What is Hackful?\n
+--------------------------\n
+\n
+Taken straight from the page http://hackful.com/about :\n
+\n
+A place for European entrepreneurs to share demos, stories or ask questions.\n
+\n
+developed by @8bitpal\n
+idea by @rayhanrafiq and @mattslight\n
+hosting donated by incite ict\n
+\n
+Born out of the mailing list of a group called Open Coffee London, an 
+amazing community of entrepreneurs helping each other everyday. \n
+\n
+We saw how open HackerNews is and thought we should give our European 
+community more chance to flourish.\n
+\n
+Our next steps include\n
+- Local Event Calendars: Both local and major European events, localised based on user settings.\n
+- Local Angel Directories: Localised based on user settings.\n
+- More sharing, subscription and data exchange options: Opt-in digest emails, JSON API and more.\n
+\n
+The source code for this platform is available on Github. 
+Contributions, bug reports and reasonable feature requests are welcome.\n	
+\n
+We also hang out on IRC - #Hackful-Europe @ irc.freenode.net\n\n 
+    </string>
+</resources>

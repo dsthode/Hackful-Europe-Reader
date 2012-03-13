@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <style name="text_gray">
+            <item name="android:textColor">@color/item_text_gray</item>
+        </style>
+        <style name="title_text">
+            <item name="android:textStyle">bold</item>
+            <item name="android:paddingBottom">2dp</item>
+            <item name="android:paddingLeft">5dp</item>
+			<item name="android:paddingTop">2dp</item>
+			<item name="android:paddingRight">5dp</item>
+        </style>
+        <style name="comments_text">
+            <item name="android:textStyle">bold</item>
+        </style>
+        <style name="white_background">
+            <item name="android:background">@android:color/white</item>
+        </style>
+        <style name="separator_bar">
+            <item name="android:background">@color/separator_bgcolor</item>
+        </style>
+        <style name="gray_action_bar">
+	        <item name="android:layout_width">fill_parent</item>
+	        <item name="android:layout_height">@dimen/actionbar_height</item>
+	        <item name="android:orientation">horizontal</item>
+	        <item name="android:background">@drawable/actionbar_background</item>
+        </style>
+    <style name="gray_action_bar_item">
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">1px</item>
+    </style>
+    <style name="gray_action_bar_home_item" parent="ActionBarItem">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+   </style>
+    <style name="ActionBarHomeLogo">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+    <style name="ActionBarProgressBar" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+    </style>
+</resources>

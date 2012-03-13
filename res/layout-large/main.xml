@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/action_bar"
+        style="@style/gray_action_bar" />
+
+	<FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        style="@style/separator_bar" />
+    
+	<LinearLayout
+	    android:id="@+id/tablet_content_container"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal" >
+	
+		<fragment android:id="@+id/news_items_frag"
+			android:name="com.nineducks.hereader.ui.NewsItemsFragment"
+			android:layout_width="425dp"
+			android:layout_height="fill_parent" />
+		
+		<FrameLayout 
+		    android:layout_width="2dp"
+		    android:layout_height="fill_parent"
+		    style="@style/separator_bar" />
+		
+		<FrameLayout
+		    android:id="@+id/webview_container"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"/>
+	
+	</LinearLayout>
+	
+</LinearLayout>
