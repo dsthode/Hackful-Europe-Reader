@@ -98,7 +98,8 @@ public class NewsItemsFragment
 				webView = new WebView(getActivity());
 				webView.setId(R.id.webview_id);
 				webView.getSettings().setJavaScriptEnabled(true);
-				webView.getSettings().setBuiltInZoomControls(true);
+				webView.getSettings().setSupportZoom(true);
+				//webView.getSettings().setBuiltInZoomControls(false);
 				webView.setWebChromeClient(new WebChromeClient() {
 	
 					@Override
