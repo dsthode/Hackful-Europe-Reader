@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
 Copyright 2012 Damián Serrano Thode (@dsthode)
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,9 +11,3 @@ Copyright 2012 Damián Serrano Thode (@dsthode)
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
--->
-<resources>
-    <style name="Theme.NoBackground" parent="android:Theme.Light.NoTitleBar">
-        <item name="android:background">@null</item>
-	</style>
-</resources>
