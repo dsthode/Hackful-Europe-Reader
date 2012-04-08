@@ -6,6 +6,8 @@ import java.net.URL;
 import java.text.ParseException;
 import java.util.Date;
 
+import android.util.Log;
+
 public class HEMessage implements Serializable {
 	
 	private static final long serialVersionUID = 42L;
@@ -111,6 +113,7 @@ public class HEMessage implements Serializable {
 		try {
 			this.pubDate = DateFormatter.FORMATTER.parse(date.trim());
 		} catch (ParseException pe) {
+			Log.d("hereader", "Failed parsing post date", pe);
 			this.pubDate = new Date();
 		}
 	}
